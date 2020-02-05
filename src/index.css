@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.main{
+  border-bottom: 1px solid silver;
+  margin: 0 auto;
+  width: 500px;
+  display: flex;
+  align-items: center;
+}
+.content{
+  margin-left: 30px;
+}
+img{
+  margin-left: 5px;
+  border-radius: 50%;
+}
+.name{
+  font-size: 25px;
+}
+.photo{
+  position: relative;
+}
+.greenBtn{
+  height: 10px;
+  width: 10px;
+  background-color: green;
+  border-radius: 5px;
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+}
+.redBtn{
+  height: 10px;
+  width: 10px;
+  background-color:red;
+  border-radius: 5px;
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+}
+.logo{
+  margin: 0 auto;
+  width: 500px;
+ background: #54759E;
+ color: whitesmoke;
+ font-size: 32px;
+ font-weight: 500; 
+ height: 70px;
+ padding: 10px;
+ box-sizing: border-box;
+ 
+}
+.logoText{
+  margin-left: 30px;
+}
+.tag{
+  color: crimson;
+}
+.message{
+  color: #929292;
+}
